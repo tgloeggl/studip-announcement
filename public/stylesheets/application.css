@@ -1,0 +1,20 @@
+html.js #dark-layer {
+  background-color: #000000;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  opacity: 0.5;
+  display: block;
+
+  position: fixed;
+  left: 0px;
+  top: 0px;
+
+  height: 100%;
+  width: 100%;
+  z-index:10007;
+}
+
+html.no-js #notification_2_5 {
+  display: none;
+  visibility: hidden;
+}

@@ -1,0 +1,6 @@
+pluginclassname=Announcement
+pluginname=Announcement
+origin=virtUOS
+version=1.0
+dbscheme=sql/install.sql
+uninstalldbscheme=sql/uninstall.sql
