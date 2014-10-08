@@ -26,9 +26,9 @@ class Announcement extends StudipPlugin implements SystemPlugin
             }
         }
 
-        $template_factory = new Flexi_TemplateFactory(dirname(__FILE__).'/views');
+        $template_factory = new Flexi_TemplateFactory(dirname(__FILE__) . '/views');
 
-        PageLayout::addStylesheet($this->getPluginURL().'/public/stylesheets/application.css');
+        PageLayout::addStylesheet($this->getPluginURL() . '/public/stylesheets/application.css');
         PageLayout::addBodyElements($template_factory->render('reminder'));
     }
 

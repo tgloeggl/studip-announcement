@@ -2,23 +2,9 @@
 
 <div id="notification_2_5">
 
-    <p>
-        Am 11.12. haben wir unser Stud.IP auf die Version 2.5 aktualisiert.
-        In der neuen Version gibt es einige<br>
-        Änderungen bzw. neue Funktionen, die wir Ihnen kurz vorstellen möchten:
-    </p>
-    <ul>
-        <li>"Alles als gelesen markieren"
-        <li>Ein modernisiertes Forum
-        <li>"Blubber" als Echtzeit-Kommunikations-Forum
-        <li>Stud.IP mobil: Android App
-        <li>Umgestaltung der TeilnehmerInnen-Seite
-    </ul>
-    <p>
-        <a class="link-extern" href="http://www.virtuos.uni-osnabrueck.de/Projekte/StudIPNeues" target="_blank">
-            Nähere Informationen zu den Änderungen finden Sie hier.
-        </a>
-    </p>
+    <iframe style="width: 580px; height: 327px; border: 0"
+            scrolling="no" allowfullscreen
+            src=""></iframe>
 
     <div style="text-align: center">
         <button class="button" name="notification_2_5_submit" id="notification_2_5_submit" type="submit"><?= _('Schließen') ?></button>
@@ -53,12 +39,12 @@
             {
             show: '',
             hide: '',
-            title: 'Update von Stud.IP auf die Version 2.5',
+            title: 'Pilotprojekt § 52a',
             draggable: true,
             modal: true,
             resizable: false,
-            width: Math.min(800, $(window).width() - 64),
-            height: 'auto',
+            width: 600,
+            height: 440,
             maxHeight: $(window).height(),
             dialogClass: 'notification-2_5-dialog',
             open: function () {
