@@ -2,9 +2,16 @@
 
 <div id="notification_2_5">
 
+    Liebe Lehrende der Universität Osnabrück,<br>
+    <br>
+    heute startet das Pilotprojekt zum § 52a UrhG und die Einzelmeldungen an die VG Wort an der Universität Osnabrück. Bitte sehen Sie sich hierzu das folgende Video von Vizepräsidentin Prof. Dr. May-Britt Kallenrode und Projektleiter Dr. Andreas Knaden an.
+    <br>
+    <br>
+    Weitere Informationen finden Sie in der Stud.IP-Veranstaltung „Pilotprojekt 52a“.<br>
+    <br>
     <iframe style="width: 580px; height: 327px; border: 0"
             scrolling="no" allowfullscreen
-            src=""></iframe>
+            src="https://video3.virtuos.uni-osnabrueck.de/engage/ui/embed.html?id=d9223f9e-9e51-4c9f-86e0-a12dbc901182&quality=hd&play=true"></iframe>
 
     <div style="text-align: center">
         <button class="button" name="notification_2_5_submit" id="notification_2_5_submit" type="submit"><?= _('Schließen') ?></button>
@@ -44,7 +51,7 @@
             modal: true,
             resizable: false,
             width: 600,
-            height: 440,
+            height: 560,
             maxHeight: $(window).height(),
             dialogClass: 'notification-2_5-dialog',
             open: function () {
