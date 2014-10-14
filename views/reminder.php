@@ -58,7 +58,7 @@
                 $(this).parents(".ui-dialog:first").css('z-index', 10020);
             },
             close: function() {
-                unsubscribe(function(){});
+                unsubscribe(function(){ $('#notification_2_5').remove(); });
             },
             create: function() {
                 var dialogue = $(this);
