@@ -27,7 +27,7 @@
         };
 
         var unsubscribe = function(onSuccess) {
-            var url = '<?= PluginEngine::getLink('announcement', array(), 'unsubscribe')?>';
+            var url = '<?= PluginEngine::getLink('globalannouncement', array(), 'unsubscribe')?>';
             $.ajax({
                 url: url,
                 success: function(obj) {

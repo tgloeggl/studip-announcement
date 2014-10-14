@@ -1,6 +1,6 @@
 <?php
 /*
- * Announcement.php - Announcement plugin for Stud.IP 2.5
+ * GlobalAnnouncement.php - Announcement plugin for Stud.IP 2.5
  * Copyright (c) 2013  Dominik Abraham
  *
  * This program is free software; you can redistribute it and/or
@@ -9,7 +9,7 @@
  * the License, or (at your option) any later version.
  */
 
-class Announcement extends StudipPlugin implements SystemPlugin
+class GlobalAnnouncement extends StudipPlugin implements SystemPlugin
 {
     private static $_configField = 'ANNOUNCEMENT_SEEN';
 
